@@ -1,0 +1,526 @@
+/* @media(min-width:1400px){
+    .agency-img {
+        width: 40%;
+        left: 3%;
+    }
+} */
+
+@media(min-width:992px){
+    .agency-img {
+        width: 40%;
+    }
+    .header-contact{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-info p{
+        font-size: 14px;
+    }
+    .header-info h4{
+        font-size: 16px;
+    }
+    .header-icon{
+        font-size: 30px;
+        color: #f69165;
+        padding: 0 10px;
+    }
+    .top-slider-title h3 {
+        text-transform: uppercase;
+        background-color: #00cce1;
+        color: #fff;
+        width: 300px;
+        padding: 8px 5px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .top-slider-title h1 {
+        text-transform: uppercase;
+        background-color: #eb7e50;
+        color: #fff;
+        padding: 8px 5px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        width: 426px;
+        height: 56px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .top-slider-title p {
+        color: #636363;
+        width: 451px;
+    }
+    .owl-prev span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 85%;
+        left: 0%;
+    }
+    .owl-next span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 85%;
+        right: 0%;
+    }
+    /* .top-slider-title{
+        text-align: left;
+        margin-bottom: 20px;
+        
+    }
+    .top-slider-title h3{
+        margin: 10px auto;
+        width: 85%;
+        font-size: 24px;
+    }
+    .top-slider-title h1{
+        margin: 10px auto;
+        width: 100%;
+        font-size: 26px;
+    } */
+    
+}
+/* 
+@media(min-width: 992px) and (max-width: 1199px){
+    
+} */
+
+@media(min-width: 768px) and (max-width: 991px){
+    .logo{
+        text-align: center;
+    }
+    .header-contact{
+        
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-icon{
+        font-size: 20px;
+        color: #f69165;
+        padding: 0 16px;
+    }
+    .header-info h4{
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .header-info p{
+        margin: 0;
+        color: #a0a0a0;
+        font-size: 14px;
+    }
+    .margin-top-side{
+        margin-top: 30px;
+    }
+    .top-slider-title{
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+    .top-slider-title h3{
+        text-align: center;
+        margin: 10px auto;
+        width: 85%;
+        font-size: 24px;
+    }
+    .top-slider-title h1{
+        text-align: center;
+        margin: 10px auto;
+        width: 100%;
+        font-size: 26px;
+    }
+    .slider-part-1 img{
+        margin: 10px auto;
+    }
+    .agency-img {
+        width: 540px;
+        display: none;
+    }
+    .agency-part {
+        padding: 50px 0;
+        text-align: center;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .agency-work{
+        padding: 20px 15px;
+        margin: 0 auto;
+    }
+    .agency-work p{
+        margin: 0;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .meet-our-doctor{
+        padding: 50px 0;
+    }
+    .hover-effect{
+        margin: 20px auto;
+    }
+    .our-services{
+        padding: 50px 0;
+    }
+    .ser-part{
+        border: 4px solid #c2c1c1;
+        padding: 10px;
+        margin: 25px auto;
+    }
+    .modify-mergin{
+        margin-bottom: 0;
+    }
+    .pricing-plans{
+        padding: 50px 0;
+    }
+    .plans{
+        margin: 0 auto;
+    }
+    .package-item p{
+        line-height: 33px;
+    }
+    .plans-rate{
+        padding: 10px 0;
+    }
+    .others-logo{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+    .ot-logo{
+        opacity: 1;
+        cursor: pointer;
+        margin-bottom: 20px;
+        width: 15%;
+    }
+    .happy-client{
+        padding: 50px 0;
+    }
+    .happy-client p{
+        margin: 0;
+    }
+    .modify-footer{
+        margin: 0 auto 50px auto;
+    }
+    .agency-h1 h1{
+        font-size: 28px;
+    }
+    .owl-prev span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 50%;
+        left: -3%;
+    }
+    .owl-next span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 50%;
+        right: -3%;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+    .logo{
+        text-align: center;
+    }
+    .header-contact{
+        display: none;
+    }
+    
+    .top-slider-title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .top-slider-title h3{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 22px;
+    }
+    .top-slider-title h1{
+        text-align: center;
+        margin: 10px auto;
+    }
+    .slider-part-1 img{
+        margin: 10px auto;
+    }
+    .agency-img {
+        width: 540px;
+        display: none;
+    }
+    .agency-part {
+        
+        text-align: center;
+    }
+    .agency-work{
+        padding: 20px 15px;
+        margin: 0 auto;
+    }
+    .agency-work p{
+        margin: 0;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .meet-our-doctor{
+        padding: 50px 0;
+    }
+    .hover-effect{
+        width: 85%;
+        margin: 20px auto;
+    }
+    .ser-part{
+        border: 4px solid #c2c1c1;
+        padding: 20px;
+        width: 85%;
+        margin: 25px auto;
+    }
+    .modify-mergin{
+        margin-bottom: 0;
+    }
+    .pricing-plans{
+        padding: 50px 0;
+    }
+    .plans{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .others-logo{
+        margin: 20px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .ot-logo{
+        opacity: 1;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .happy-client p{
+        margin: 0;
+    }
+    .modify-footer{
+        width: 85%;
+        margin: 0 auto 50px auto;
+    }
+    .agency-h1 h1{
+        font-size: 28px;
+    }
+    .owl-prev span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 50%;
+        left: -3%;
+    }
+    .owl-next span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 50%;
+        right: -3%;
+    }
+}
+
+
+@media(min-width: 0px) and (max-width: 575px){
+    .logo{
+        text-align: center;
+    }
+    .header-contact{
+        display: none;
+    }
+    .appoinment{
+        display: flex;
+        align-items: center;
+        width: 160px;
+        height: 40px;
+        background-color: #f69165;
+        justify-content: center;
+        border-radius: 10px 0px 10px 0px;
+    }
+    .top-slider-title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .top-slider-title h3{
+        text-align: center;
+        margin: 10px auto;
+    }
+    .top-slider-title h1{
+        text-align: center;
+        margin: 10px auto;
+    }
+    .slider-part-1 img{
+        margin: 10px auto;
+    }
+    .agency-img {
+        width: 540px;
+        display: none;
+    }
+    .agency-part {
+        
+        text-align: center;
+    }
+    .agency-work{
+        padding: 30px 35px;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .meet-our-doctor{
+        padding: 50px 0;
+    }
+    .hover-effect{
+        width: 85%;
+        margin: 20px auto;
+    }
+    .ser-part{
+        border: 4px solid #c2c1c1;
+        padding: 20px;
+        width: 85%;
+        margin: 25px auto;
+    }
+    .modify-mergin{
+        margin-bottom: 0;
+    }
+    .pricing-plans{
+        padding: 50px 0;
+    }
+    .plans{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .others-logo{
+        margin: 20px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .ot-logo{
+        opacity: 1;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .happy-client p{
+        margin: 0;
+    }
+    .modify-footer{
+        width: 85%;
+        margin: 0 auto 50px auto;
+    }
+    .agency-h1 h1{
+        font-size: 28px;
+    }
+    .agency-work p{
+        margin: 0;
+        text-align: justify;
+    }
+    .owl-prev span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 50%;
+        left: 0%;
+    }
+    .owl-next span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 50%;
+        right: 0%;
+    }
+}
+@media(max-width:375px){
+    .top-slider-title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .appoinment{
+        display: flex;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        background-color: #f69165;
+        justify-content: center;
+        border-radius: 10px 0px 10px 0px;
+    }
+    .top-slider-title h3{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 16px;
+        width: 70%;
+
+    }
+    .top-slider-title h1{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+    .address2 img{
+        width: 50px;
+        height: 50px;
+    }
+    .address2{
+        display: flex;
+        align-items: center;
+    }
+    .btn-signup{
+        background-color: #f69165;
+        margin: 0;
+        border-radius: 0;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        
+    }
+    .signup{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .signup a{
+        margin-top: 10px;
+    }
+    .signup form{
+        border-radius: 0 0 0 0;
+        margin: 0;
+        width: 100%;
+    }
+    .follow-us{
+        color: #fff;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 30px;
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .modify-follow{
+        color: #fff;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .owl-prev span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 50%;
+        left: 0%;
+    }
+    .owl-next span {
+        
+        border-radius: 50%; 
+        position: absolute;
+        top: 50%;
+        right: 0%;
+    }
+}
